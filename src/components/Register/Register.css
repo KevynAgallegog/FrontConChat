@@ -1,0 +1,153 @@
+.swal2-title {
+  font-size: 18px; /* Tamaño de fuente */
+}
+
+.swal2-content {
+  font-size: 16px; /* Tamaño de fuente */
+}
+
+.swal2-icon {
+  font-size: 24px; /* Tamaño del icono */
+}
+
+
+.swal2-popup .swal2-title {
+  margin-bottom: 10px; /* Margen inferior del título */
+}
+
+.error-message {
+  color: #e30a13; /* Color del mensaje de error */
+  font-size: 14px; /* Tamaño de fuente del mensaje de error */
+  margin-top: 4px; /* Espacio superior para separar el mensaje del input */
+  display: block; /* Hacer que el mensaje ocupe todo el ancho disponible */
+}
+
+.label-register {
+  position: relative; /* Agrega posicionamiento relativo al contenedor */
+}
+
+.password-input-container {
+  display: flex; /* Utiliza flexbox para alinear los elementos */
+  align-items: center; /* Centra verticalmente los elementos */
+}
+
+.input-register {
+  width: calc(100% - 40px); /* Ancho del input menos el ancho del botón */
+}
+
+.toggle-password-btn-container {
+  position: absolute; /* Agrega posicionamiento absoluto */
+  right: 5px; /* Ajusta la posición desde la derecha */
+  top: -1px;
+  color: #e30a13;
+}
+.toggle-password-btn:hover{
+  background-color: transparent;
+  color: #ff0008;
+}
+.password-toggle-icon {
+  color: rgb(255, 0, 0); /* Cambia el color del ícono a azul */
+}
+
+
+.toggle-password-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  top: 20px;
+  color: #ff0008;
+}
+
+.password-toggle-icon {
+  color: #777;
+  top: 20px;
+}
+
+
+.registro-container {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(45deg, #7c7d7e, #000000, #444444, #7d7d7e);
+  }
+
+  .registro-form {
+    max-width: 450px;
+    padding: 30px;
+    border: 2px solid #e30a13;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(255, 57, 57, 0.8);
+    background-color: #282828;
+    transition: transform 0.3s ease-in-out;
+    background: linear-gradient(45deg, #7c7d7e, #000000, #444444, #6b6b6b);
+    background-size: 400% 400%;
+    animation: gradientAnimation 15s ease infinite;
+  }
+  
+  .registro-form:hover {
+    transform: scale(1.05);
+  }
+  
+  .tituloRegister {
+    text-align: center;
+    color: #ffffff;
+    -webkit-text-stroke: 0.3px black; 
+    font-size: 25px; 
+  }
+  
+  .label-register {
+    display: block;
+    margin: 15px 0; 
+    color: #fff; 
+  }
+  
+  .input-register {
+    width: 100%;
+    padding: 10px;
+    margin-top: 4px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+    background-color: #505050; 
+    color: #fff; 
+    border: 1px solid #ff0000; 
+  }
+  
+  input:focus {
+    border-color: #ff0008;
+  }
+  
+  button {
+    width: 100%;
+    padding: 12px;
+    background-color: #ffffff; 
+    color: #282828; 
+    border: none;
+    border-radius: 6px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold; 
+  }
+  
+  button:hover {
+    background-color: #d1ffe6; 
+  }
+  
+  
+  @keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+
+  
+
+  

@@ -1,0 +1,16 @@
+.section2{
+    width: 100%;
+    height: 100vh;
+    background: url(https://ideogram.ai/api/images/direct/AQ55ksObQ6mUIYD519Hf5g.png) top center;
+    background-size: cover;
+    position: relative;
+}
+.section2::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
